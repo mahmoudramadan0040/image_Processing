@@ -1,5 +1,9 @@
 // https://jasmine.github.io/api/npm/4.0/Configuration.html
-import { DisplayProcessor, SpecReporter, StacktraceOption } from 'jasmine-spec-reporter'
+import {
+  DisplayProcessor,
+  SpecReporter,
+  StacktraceOption,
+} from 'jasmine-spec-reporter'
 import SuiteInfo = jasmine.SuiteInfo
 
 class CustomProcessor extends DisplayProcessor {
